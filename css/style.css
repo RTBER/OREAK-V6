@@ -1527,7 +1527,7 @@ html[data-theme="dark"] .font-size-btn:hover {
 }
 .theme-toggle-btn-mobile { /* Si necesitas reestilizar el botón de tema en este contexto */
     width: 100%; /* Que ocupe todo el ancho si está solo en su grupo */
-    justify-content: flex-start; /* Alinear contenido a la izquierda */
+    justify-content: flex-start; /* Alinear contenido a la izquierda (*-*)*/
     border: 1px solid var(--theme-header-text) !important; /* Restaurar borde si el LI lo quitó */
 }
 .mobile-nav-menu-container ul li:has(> .mobile-controls-section) { /* Si mobile-controls-section es un LI */
